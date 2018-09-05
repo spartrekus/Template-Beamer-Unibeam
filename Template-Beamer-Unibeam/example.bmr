@@ -1,0 +1,19 @@
+#include{beamer.mrk}
+!gpath{figs}
+!beamer
+!begin
+!section Section
+!clr
+> Header
+- this is an example
+!fig{pic.png}
+//!fig{fig.png}
+//!textfig{fig.png}
+
+!clr
+!section Section Two
+> Header
+- this is an example
+!figab{pic.png}{pic.png}
+
+
